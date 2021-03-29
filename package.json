@@ -4,8 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "-": "^0.0.1",
+    "D": "^1.0.0",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "typescript": "^4.2.3"
   },
   "scripts": {
     "dev": "webpack serve",
@@ -16,7 +19,10 @@
     "@babel/core": "^7.13.10",
     "@babel/preset-env": "^7.13.12",
     "@babel/preset-react": "^7.12.13",
+    "@babel/preset-typescript": "^7.13.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.4.3",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
     "babel-loader": "^8.2.2",
     "crossenv": "^0.0.2-security",
     "css-loader": "^5.2.0",
